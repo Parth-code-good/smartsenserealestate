@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+venv/
+.env/
+.env.local
+*.env
+
+# Data
+data/*.xlsx
+data/certificates/
+!data/.gitkeep  # Keep empty folders tracked if needed
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.log
